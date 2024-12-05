@@ -1,4 +1,4 @@
-# currency-rate-app
+# currency-rate-node
 Node.js server built with TypeScript to provide backend functionality for a currency conversion application.
 
 
