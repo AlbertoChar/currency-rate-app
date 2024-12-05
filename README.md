@@ -40,10 +40,15 @@ npm start
 
 ## Folder Structure
 src/
+
    ├── controllers/        # Route controllers
+   
    ├── handlers/           # Business logic and API orchestration
+   
    ├── services/           # Utility and reusable logic (e.g., date calculations)
+   
    ├── routes/             # API route definitions
+   
    ├── app.ts              # Main application entry point
 
 
