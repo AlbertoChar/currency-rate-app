@@ -28,19 +28,12 @@ This project is a **Node.js** server built with **TypeScript** for managing curr
    git clone https://github.com/your-username/currency-converter-node.git
    cd currency-converter-node
 Install dependencies:
-
-bash
-Copy code
 npm install
-Start the server:
 
+Start the server:
 For development (hot-reload):
-bash
-Copy code
 npm run dev
 For production:
-bash
-Copy code
 npm run build
 npm start
 
@@ -73,8 +66,6 @@ Convert Currency
 
 POST /convert
 Body:
-json
-Copy code
 {
   "amount": 100,
   "from": "USD",
