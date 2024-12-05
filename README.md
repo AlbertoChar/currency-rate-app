@@ -66,8 +66,8 @@ Get Current Exchange Rates
 
 GET /rates
 Response: JSON object containing the latest currency rates.
-Convert Currency
 
+Convert Currency
 POST /convert
 Body:
 {
@@ -76,8 +76,8 @@ Body:
   "to": "EUR"
 }
 Response: JSON object containing the converted amount.
-Get Historical Rates
 
+Get Historical Rates
 GET /historical
 Query Parameters:
 base: The base currency (e.g., USD).
