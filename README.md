@@ -41,22 +41,20 @@ npm start
 
 ## Folder Structure
 src/
-
-   ├── controllers/        # Route controllers
-   
-   ├── handlers/           # Business logic and API orchestration
-   
-   ├── services/           # Utility and reusable logic (e.g., date calculations)
-   
-   ├── routes/             # API route definitions
-   
-   ├── app.ts              # Main application entry point
+   controllers/        # Route controllers
+   handlers/           # Business logic and API orchestration
+   services/           # Utility and reusable logic (e.g., date calculations)
+   routes/             # API route definitions
+   app.ts              # Main application entry point
 
 
 ## Scripts
 npm run dev: Run the server in development mode with hot-reloading.
+
 npm run build: Compile the TypeScript code to JavaScript.
+
 npm start: Start the compiled JavaScript server in production.
+
 
 
 ## API Endpoints
